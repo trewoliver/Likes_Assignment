@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 600px;
+    width: 1000px;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+.tn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.top-nav {
+    height:70px;
+    width:650px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: white; 
+    margin: 10px;
+    /* display: flex;
+    justify-content: center ; */
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+h4, h5, h6 {
+    position: relative;
+    left: 10px;
+    font-size: medium;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+}
+
+.left-column {
+    height: 400px;
+    width: 150px;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 90px;
+}
+
+.left-box {
+    height: 200px;
+    width: 150px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 16px;
+    /* right: 90px; */
+}
+
+.profile-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.right-column {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    right: 90px;
+    
+}
+
+.top-box {
+    margin: 10px;
+    border: 3px solid black;
+    height: 100px;
+    width: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tb-top-half {
+    display: flex;
+}
+
+.like-button-1 {
+    position: relative;
+    left: 350px;
+}
+
+.mid-box {
+    margin: 10px;
+    border: 3px solid black;
+    height: 100px;
+    width: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mb-top-half {
+    display: flex;
+}
+
+.like-button-2 {
+    position: relative;
+    left: 330px;
+}
+.bottom-box {
+    margin: 10px;
+    border: 3px solid black;
+    height: 100px;
+    width: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bb-top-half {
+    display: flex;
+}
+
+.like-button-3 {
+    position: relative;
+    left: 365px;
+}
